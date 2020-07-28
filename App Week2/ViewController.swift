@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var imgprofile: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        imgprofile.layer.cornerRadius = imgprofile.frame.size.width/4.0
     }
 
 
